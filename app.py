@@ -8,7 +8,7 @@ import tempfile
 FRAMES_PER_VIDEO = 20
 IMG_SIZE = 96
 
-model = tf.keras.models.load_model("best_har_model.h5")
+model = tf.keras.models.load_model("best_har_model.h5", compile=False)
 
 with open("class_names.json") as f:
     class_names = json.load(f)
