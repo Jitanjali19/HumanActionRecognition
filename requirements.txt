@@ -1,5 +1,5 @@
-streamlit
-tensorflow-cpu
-opencv-python-headless
-numpy
-h5py
+streamlit==1.55.0
+tensorflow==2.19.0
+opencv-python-headless==4.12.0.88
+numpy==2.1.3
+h5py==3.14.0
